@@ -1,0 +1,178 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  background-color: #1f2937;
+}
+#header-logo{
+  color: #f9faf8;
+  font-size: 24px;
+}
+.header-right{
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 12px;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+}
+.navbar-right ,.navbar-left{
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.first-content{
+  display: flex;
+  flex-direction: row;
+}
+h1{
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
+}
+.text{
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.content-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+.content-left{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  margin-left: 200px;
+}
+.content-right img {
+  width: 80%;
+  height: 60%;
+  margin: 50px;
+  margin-right: 400px;
+  
+}
+.sign-up-button{
+  background-color: #3882f6;
+  color: white;
+  width: 110px;
+  height: 30px;
+  border-style: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+h2{
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+}
+.row-divs{
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px;
+  margin-top: 30px;
+}
+.box{
+  border: 2px solid #3882f6;
+  width: 200px;
+  height: 210px;
+  border-radius: 5px;
+ }
+.second-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.p-message{
+  text-align: center;
+  font-size: 18px;
+}
+.third-content{
+  background-color: #e5e7eb;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 400px;
+}
+h3{
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: lighter;
+}
+.message{
+  margin-left: 500px;
+}
+.kaupat{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fourth-content{
+  color: white;
+  background-color: #3882f6;
+  width: 920px;
+  height: 150px;
+  margin-top: 50px;
+  border-radius: 5px;
+  display: flex;
+}
+.text-box{
+  width: 80%;
+  margin-left: 100px;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+}
+h4{
+  font-size: 24px;
+  color: white;
+  font-weight: 400;
+}
+.fourth-message{
+  color: #e5e7e5;
+  font-size: 18px;
+}
+.button-box{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 90px;
+}
+.sign-up{
+  background-color: #3882f6;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: 2px solid white;  
+  border-radius: 6px;
+ }
+ .footer{
+  background-color: #1f2937;
+  height: 55px;
+  display: flex;
+  justify-content:  center;
+ }
+ .last-text{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  align-items: center;
+ }
